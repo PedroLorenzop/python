@@ -16,7 +16,7 @@ info = r.json()
 
 
 
-#print(f"{info['id']}, {info['types']}")
+#Mostrar o id do pokemon e o tipo dele
+print(f"{info['id']}, {info['types'][0]['type']['name']}")
 
 
-print(info['types'][0]['type']['name'])
